@@ -36,8 +36,8 @@ app.use(
 // app.use(express.urlencoded({ limit: "10mb", extended: true }));
 // app.use(bodyParser.json({ limit: "5mb" }));
 // app.use(bodyParser.urlencoded({ extended: true, limit: "5mb" }));
-app.use(bodyParser.json({ limit: "50mb" }));  // Increase size to 50MB
-app.use(bodyParser.urlencoded({ extended: true, limit: "50mb" }));
+// app.use(bodyParser.json({ limit: "50mb" }));  // Increase size to 50MB
+// app.use(bodyParser.urlencoded({ extended: true, limit: "50mb" }));
 
 
 
